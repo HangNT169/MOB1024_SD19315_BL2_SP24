@@ -28,4 +28,16 @@ public class SinhVienService {
         return lists;
     }
 
+    public void xoaSinhVien(int index) {
+        lists.remove(index);
+    }
+
+    public void addSinhVien(SinhVien sv) {
+        lists.add(sv);
+    }
+
+    public void suaSinhVien(int index, SinhVien newSinhVien) {
+        lists.set(index, newSinhVien);
+    }
+
 }
