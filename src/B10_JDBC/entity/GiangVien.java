@@ -77,4 +77,11 @@ public class GiangVien {
         this.gioiTinh = gioiTinh;
     }
 
+    @Override
+    public String toString() {
+        return "GiangVien{" + "maGV=" + maGV + ", ten=" + ten + ", loai=" + loai + ", tuoi=" + tuoi + ", bac=" + bac + ", gioiTinh=" + gioiTinh + '}';
+    }
+
+
+    
 }
